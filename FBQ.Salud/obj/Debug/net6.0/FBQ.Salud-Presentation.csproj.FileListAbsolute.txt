@@ -163,3 +163,13 @@ C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\refint\
 C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.pdb
 C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.genruntimeconfig.cache
 C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\ref\FBQ.Salud-Presentation.dll
+C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.AssemblyReference.cache
+C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfoInputs.cache
+C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfo.cs
+C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CoreCompileInputs.cache
+C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.dll
+C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\refint\FBQ.Salud-Presentation.dll
+C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.pdb

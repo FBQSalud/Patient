@@ -12,10 +12,11 @@ namespace FBQ.Salud_AccessData.Commands
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost;Database=DbPatientApi;Trusted_Connection=True;MultipleActiveResultSets=true");
+            optionsBuilder.UseSqlServer("Server=FRANCOLOPEZ\\SQLEXPRESS;Database=DbPatientApi;Trusted_Connection=True;MultipleActiveResultSets=true");
         }
 
         public virtual DbSet<Turno> Turnos { get; set; }
         public virtual DbSet<Paciente> Pacientes { get; set; }
+        public virtual DbSet<HistoriaClinica> HistoriasClinicas { get; set; }
     }
 }

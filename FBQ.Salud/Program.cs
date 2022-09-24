@@ -23,6 +23,8 @@ builder.Services.AddTransient<ITurnosRepository, TurnosRepository>();
 builder.Services.AddTransient<ITurnoServices, TurnoServices>();
 builder.Services.AddTransient<IPacienteRepository, PacienteRepository>();
 builder.Services.AddTransient<IPacienteService, PacienteServices>();
+builder.Services.AddTransient<IHistoriaClinicaRepository, HistoriaClinicaRepository>();
+builder.Services.AddTransient<IHistoriaClinicaServices, HistoriaClinicaServices>();
 
 //Cors
 builder.Services.AddCors(c =>
