@@ -21,6 +21,9 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 //Repository
 builder.Services.AddTransient<ITurnosRepository, TurnosRepository>();
 builder.Services.AddTransient<ITurnoServices, TurnoServices>();
+builder.Services.AddTransient<IPacienteRepository, PacienteRepository>();
+builder.Services.AddTransient<IPacienteService, PacienteServices>();
+
 //Cors
 builder.Services.AddCors(c =>
 {
