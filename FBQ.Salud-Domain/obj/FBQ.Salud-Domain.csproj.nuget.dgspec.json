@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< .merge_file_a19548
     "C:\\Users\\LopezFranco\\Desktop\\FBQSalud\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\LopezFranco\\Desktop\\FBQSalud\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj",
         "packagesPath": "C:\\Users\\LopezFranco\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\LopezFranco\\Desktop\\FBQSalud\\Patient\\FBQ.Salud-Domain\\obj\\",
+=======
+    "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj",
+        "projectName": "FBQ.Salud-Domain",
+        "projectPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj",
+        "packagesPath": "C:\\Users\\casto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-Domain\\obj\\",
+>>>>>>> .merge_file_a03780
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LopezFranco\\AppData\\Roaming\\NuGet\\NuGet.Config",

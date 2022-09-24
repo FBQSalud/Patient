@@ -17,10 +17,25 @@ builder.Services.AddDbContext<FbqSaludDbContext>(options =>
 });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+<<<<<<< .merge_file_a12408
 builder.Services.AddAutoMapper(typeof(Program));
 //Repository
 builder.Services.AddTransient<IPacienteRepository,PacienteRepository>();
 builder.Services.AddTransient<IPacienteService, PacienteServices>();
+=======
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+//Repository
+builder.Services.AddTransient<ITurnosRepository, TurnosRepository>();
+builder.Services.AddTransient<ITurnoServices, TurnoServices>();
+//Cors
+builder.Services.AddCors(c =>
+{
+    c.AddPolicy("AllowOrigin", options => options
+                                                .AllowAnyOrigin()
+                                                .AllowAnyMethod()
+                                                .AllowAnyHeader());
+});
+>>>>>>> .merge_file_a23880
 
 var app = builder.Build();
 
@@ -31,6 +46,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors(options =>
+{
+    options.AllowAnyMethod();
+    options.AllowAnyHeader();
+    options.AllowAnyOrigin();
+});
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
@@ -38,3 +60,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< .merge_file_a16644
   "dgSpecHash": "xyZpAygh4uGffmYbeCYftErGJRL5MMtvaji3BvcJnzl2EynWhHDE+EJDYK1Dz7t25631LjPPz6/R/lOToVx/aw==",
   "success": true,
   "projectFilePath": "C:\\Users\\LopezFranco\\Desktop\\FBQSalud\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud.AccessData.csproj",
+=======
+  "dgSpecHash": "lbcf0HlP6wMlrof0dxMw+NMSxA7YiCQoyq3V1LPsjkaX+I/gjuMRRe/ViCgdxcT7flMndffnTreRwWnI982GmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj",
+>>>>>>> .merge_file_a13964
   "expectedPackageFiles": [
     "C:\\Users\\LopezFranco\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\LopezFranco\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

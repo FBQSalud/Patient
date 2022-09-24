@@ -8,9 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FBQ.Salud-Presentation
 build_property.RootNamespace = FBQ.Salud-Presentation
+<<<<<<< .merge_file_a21808
 build_property.ProjectDir = C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud
+=======
+build_property.ProjectDir = C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud
+>>>>>>> .merge_file_a20620
 build_property._RazorSourceGeneratorDebug = 
