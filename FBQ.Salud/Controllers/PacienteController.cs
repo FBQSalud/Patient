@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FBQ.Salud_Presentation.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[pacientes]")]
     [ApiController]
     public class PacienteController : ControllerBase
     {
