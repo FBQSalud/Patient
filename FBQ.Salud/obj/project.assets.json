@@ -2359,11 +2359,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Template\\FBQ.Salud\\FBQ.Salud-Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud\\FBQ.Salud-Presentation.csproj",
       "projectName": "FBQ.Salud-Presentation",
-      "projectPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Template\\FBQ.Salud\\FBQ.Salud-Presentation.csproj",
+      "projectPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud\\FBQ.Salud-Presentation.csproj",
       "packagesPath": "C:\\Users\\casto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Template\\FBQ.Salud\\obj\\",
+      "outputPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -2386,11 +2386,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Template\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj": {
-              "projectPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Template\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj"
+            "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj": {
+              "projectPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj"
             },
-            "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Template\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj": {
-              "projectPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Template\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj"
+            "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj": {
+              "projectPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj"
             }
           }
         }

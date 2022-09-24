@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RZS9zchrQeNoEIDytdQA84CWx6T+m8c2iJq5/lLts52cf98/SzE6H687NllKs3RDLaiJFSDT6Lxl4+jPPnJk9g==",
+  "dgSpecHash": "iGhiiaCCbcBQwIcWGx2DDoOKHZaV2802a/2VEDST8OiLy1bScW8xyj3caJ/TzugfSCH4kERkMZY5EiIZV75wMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Template\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj",
+  "projectFilePath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\casto\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\casto\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
