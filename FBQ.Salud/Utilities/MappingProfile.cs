@@ -9,6 +9,7 @@ namespace FBQ.Salud_Presentation.Utilities
         public MappingProfile()
         {
             CreateMap<Turno, TurnoDTO>().ReverseMap();
+            CreateMap<Paciente, PacienteDto>().ReverseMap();
         }
     }
 }
