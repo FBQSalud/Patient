@@ -1948,19 +1948,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< .merge_file_a08976
       "projectUniqueName": "C:\\Users\\LopezFranco\\Desktop\\FBQSalud\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud.AccessData.csproj",
       "projectName": "FBQ.Salud.AccessData",
       "projectPath": "C:\\Users\\LopezFranco\\Desktop\\FBQSalud\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud.AccessData.csproj",
       "packagesPath": "C:\\Users\\LopezFranco\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\LopezFranco\\Desktop\\FBQSalud\\Patient\\FBQ.Salud-AccessData\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj",
-      "projectName": "FBQ.Salud-AccessData",
-      "projectPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj",
-      "packagesPath": "C:\\Users\\casto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-AccessData\\obj\\",
->>>>>>> .merge_file_a18108
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LopezFranco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1977,13 +1969,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-<<<<<<< .merge_file_a08976
             "C:\\Users\\LopezFranco\\Desktop\\FBQSalud\\Patient\\FBQ.Salud-Domain\\FBQ.Salud.Domain.csproj": {
               "projectPath": "C:\\Users\\LopezFranco\\Desktop\\FBQSalud\\Patient\\FBQ.Salud-Domain\\FBQ.Salud.Domain.csproj"
-=======
-            "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj": {
-              "projectPath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj"
->>>>>>> .merge_file_a18108
             }
           }
         }
@@ -2041,5 +2028,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\LopezFranco\\Desktop\\FBQSalud\\Patient\\FBQ.Salud-AccessData\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

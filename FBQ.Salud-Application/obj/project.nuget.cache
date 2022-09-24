@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< .merge_file_a20576
   "dgSpecHash": "M/mk5A/kHq6ck9/XSdBJrCHqtOD+7ikWSPrpz834sUPuHZ9sRUkjmxnaEah0Kv6f0swOrkpFk36+oWMwogoYfA==",
   "success": true,
   "projectFilePath": "C:\\Users\\LopezFranco\\Desktop\\FBQSalud\\Patient\\FBQ.Salud-Application\\FBQ.Salud.Application.csproj",
-=======
-  "dgSpecHash": "KgvJWzSoi5vcYUgd5lKAItETpL8+6C3Udj5ryRDUSwz/mACKmk/aJbQcQxJXx9M0XGtvawxjGxOOdJigXcXLyA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\casto\\Downloads\\2do Cuatri 2022\\Proyecto Software\\TP-Grupal\\FBQ.Salud - Patient\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj",
->>>>>>> .merge_file_a14456
   "expectedPackageFiles": [
     "C:\\Users\\LopezFranco\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\LopezFranco\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
@@ -56,5 +50,12 @@
     "C:\\Users\\LopezFranco\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\LopezFranco\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\LopezFranco\\Desktop\\FBQSalud\\Patient\\FBQ.Salud-Application\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
