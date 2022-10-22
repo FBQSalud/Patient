@@ -11,6 +11,7 @@ namespace FBQ.Salud_Domain.Commands
     {
         List<Paciente> GetAll();
         Paciente GetPacienteById(int id);
+        Paciente GetPacienteByDNI(string dni);
         void Update(Paciente paciente);
         void Delete(Paciente paciente);
         void Add(Paciente paciente);

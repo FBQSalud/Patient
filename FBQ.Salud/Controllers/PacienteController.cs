@@ -24,10 +24,17 @@ namespace FBQ.Salud_Presentation.Controllers
         {
             try
             {
-                var paciente = _service.GetAll();
-                var pacienteMapped = _mapper.Map<List<PacienteDto>>(paciente);
+                var patients = _service.GetAll();
 
-                return Ok(pacienteMapped);
+                if (patients.Count() == 0)
+                {
+
+                    return NotFound(patients);
+                }
+                else
+                {
+                    return Ok(patients);
+                }
             }
             catch (Exception e)
             {
@@ -35,13 +42,16 @@ namespace FBQ.Salud_Presentation.Controllers
             }
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        [HttpGet]
+        [Route("id")]
+        public async Task<IActionResult> GetbyId(int id)
         {
             try
             {
                 var paciente = _service.GetPacienteById(id);
+
                 var pacienteMapped = _mapper.Map<PacienteDto>(paciente);
+
                 if (paciente == null)
                 {
                     return NotFound("Paciente Inexistente");
@@ -59,15 +69,16 @@ namespace FBQ.Salud_Presentation.Controllers
         {
             try
             {
-                var pacienteEntity = _service.CreatePaciente(paciente);
+                var userNuevo = _service.Add(paciente);
 
-                if (pacienteEntity != null)
+                if (userNuevo.Success)
                 {
-                    var pacienteCreated = _mapper.Map<PacienteDto>(pacienteEntity);
-                    return Ok("Paciente Creado");
+                    return new JsonResult(userNuevo) { StatusCode = 201 };
                 }
-
-                return BadRequest();
+                else
+                {
+                    return new JsonResult(userNuevo) { StatusCode = 409 };
+                }
             }
             catch (Exception e)
             {
@@ -75,7 +86,8 @@ namespace FBQ.Salud_Presentation.Controllers
             }
         }
 
-        [HttpPut("{id}")]
+        [HttpPut]
+        [Route("id")]
         public IActionResult UpdatePaciente(int id, PacienteDto paciente)
         {
             try
@@ -89,7 +101,12 @@ namespace FBQ.Salud_Presentation.Controllers
 
                 if (pacienteUpdate == null)
                 {
-                    return NotFound("Paciente Inexistente");
+                    return NotFound(new Response
+                    {
+                        Success = true,
+                        Message = "Paciente inexistente",
+                        Result = ""
+                    });
                 }
 
                 _mapper.Map(paciente, pacienteUpdate);
@@ -103,20 +120,20 @@ namespace FBQ.Salud_Presentation.Controllers
             }
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete()]
+        [Route("id")]
         public IActionResult DeletePaciente(int id)
         {
             try
             {
-                var paciente = _service.GetPacienteById(id);
+                var paciente = _service.Delete(id);
 
-                if (paciente == null)
+                if (paciente.Success == false)
                 {
-                    return NotFound("Paciente Inexistente");
+                    return new JsonResult(paciente) { StatusCode = 404 };
                 }
-
-                _service.Delete(paciente);
-                return Ok("Paciente eliminado");
+                else
+                    return Ok(paciente);
             }
             catch (Exception e)
             {

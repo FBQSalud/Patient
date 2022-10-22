@@ -25,8 +25,11 @@ namespace FBQ.Salud_Domain.Entities
         [Required]
         public string Telefono { get; set; }
         [Required]
-        public bool Estado { get; set; }
+        public bool Estado { get; set; } = false;
         [Required]
         public string Foto { get; set; }
+        public ICollection<Turno> Turnos { get; set; }
+        public ICollection<HistoriaClinica> HistoriaClinicas { get; set; }
+
     }
 }

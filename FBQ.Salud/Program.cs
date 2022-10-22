@@ -1,6 +1,7 @@
 using FBQ.Salud_AccessData.Commands;
 using FBQ.Salud_AccessData.Queries;
 using FBQ.Salud_Application.Services;
+using FBQ.Salud_Application.Validation;
 using FBQ.Salud_Domain.Commands;
 using Microsoft.EntityFrameworkCore;
 
@@ -25,6 +26,8 @@ builder.Services.AddTransient<IPacienteRepository, PacienteRepository>();
 builder.Services.AddTransient<IPacienteService, PacienteServices>();
 builder.Services.AddTransient<IHistoriaClinicaRepository, HistoriaClinicaRepository>();
 builder.Services.AddTransient<IHistoriaClinicaServices, HistoriaClinicaServices>();
+builder.Services.AddTransient<IPacienteValidationExist, PacienteValidationExist>();
+
 
 //Cors
 builder.Services.AddCors(c =>
@@ -43,13 +46,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseCors(options =>
-{
-    options.AllowAnyMethod();
-    options.AllowAnyHeader();
-    options.AllowAnyOrigin();
-});
 
 app.UseHttpsRedirection();
 

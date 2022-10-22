@@ -12,9 +12,5 @@ namespace FBQ.Salud_Domain.Dtos
         public int PacienteId { get; set; }
         [Required]
         public DateTime FechaTurno { get; set; }
-        [Required]
-        public string Observacion { get; set; }
-        [Required]
-        public bool EstadoTurno { get; set; }
     }
 }

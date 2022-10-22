@@ -27,7 +27,13 @@ namespace FBQ.Salud_AccessData.Queries
 
         public List<Paciente> GetAll()
         {
-            return _context.Pacientes.ToList();
+            var pacientes = (from u in _context.Pacientes where u.Estado == false select u).ToList();
+            return pacientes;
+        }
+
+        public Paciente GetPacienteByDNI(string dni)
+        {
+            return _context.Pacientes.FirstOrDefault(x => x.DNI == dni);
         }
 
         public Paciente GetPacienteById(int id)

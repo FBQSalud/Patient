@@ -13,8 +13,7 @@ namespace FBQ.Salud_Domain.Entities
         [Required]
         public DateTime FechaTurno { get; set; }
         [Required]
-        public string Observacion { get; set; }
-        [Required]
-        public bool EstadoTurno { get; set; }
+        public bool EstadoTurno { get; set; } = false;
+        public Paciente Paciente { get; set; }
     }
 }

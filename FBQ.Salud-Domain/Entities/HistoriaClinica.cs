@@ -18,5 +18,7 @@ namespace FBQ.Salud_Domain.Entities
         public bool Estado { get; set; }
         [Required]
         public string Diagnostico { get; set; }
+
+        public Paciente Paciente { get; set; }
     }
 }
