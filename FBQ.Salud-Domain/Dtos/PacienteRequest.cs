@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FBQ.Salud_Domain.Dtos
 {
-    public class PacienteDto
+    public class PacienteRequest
     {
         public string Nombre { get; set; }
         [Required]
@@ -26,5 +26,6 @@ namespace FBQ.Salud_Domain.Dtos
         public string Telefono { get; set; }
         [Required]
         public string Foto { get; set; }
+        public bool sort { get; set; }
     }
 }

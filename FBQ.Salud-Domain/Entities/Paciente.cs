@@ -10,23 +10,15 @@ namespace FBQ.Salud_Domain.Entities
     public class Paciente
     {
         public int PacienteId { get; set; }
-        [Required]
         public string Nombre { get; set; }
-        [Required]
         public string Apellido { get; set; }
-        [Required]
         public int Edad { get; set; }
-        [Required]
         public string Sexo { get; set; }
-        [Required]
         public string DNI { get; set; }
-        [Required]
         public string Direccion { get; set; }
-        [Required]
+        public string DirecionNumero { get; set; }
         public string Telefono { get; set; }
-        [Required]
         public bool Estado { get; set; } = false;
-        [Required]
         public string Foto { get; set; }
         public ICollection<Turno> Turnos { get; set; }
         public ICollection<HistoriaClinica> HistoriaClinicas { get; set; }
