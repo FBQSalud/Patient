@@ -18,8 +18,13 @@ namespace FBQ.Salud_Presentation.Controllers
             _service = service;
             _mapper = mapper;
         }
-
+        /// <summary>
+        ///  Endpoint dedicado a la obtencion de una lista de pacientes. 
+        /// </summary>
         [HttpGet]
+        [ProducesResponseType(typeof(PacienteDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(PacienteDto), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult GetAll()
         {
             try
@@ -41,9 +46,14 @@ namespace FBQ.Salud_Presentation.Controllers
                 return BadRequest(e.Message);
             }
         }
-
+        /// <summary>
+        ///  Endpoint dedicado a la obtener un paciente Por Id.
+        /// </summary>
         [HttpGet]
         [Route("id")]
+        [ProducesResponseType(typeof(PacienteDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> GetbyId(int id)
         {
             try
@@ -63,8 +73,13 @@ namespace FBQ.Salud_Presentation.Controllers
                 return BadRequest(e.Message);
             }
         }
-
+        /// <summary>
+        ///  Endpoint dedicado a la creación un paciente.
+        /// </summary>
         [HttpPost]
+        [ProducesResponseType(typeof(Response), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(Response), StatusCodes.Status409Conflict)]
+        [ProducesResponseType(typeof(Response), StatusCodes.Status400BadRequest)]
         public IActionResult CreatePaciente([FromForm] PacienteDto paciente)
         {
             try
@@ -85,9 +100,14 @@ namespace FBQ.Salud_Presentation.Controllers
                 return BadRequest(e.Message);
             }
         }
-
+        /// <summary>
+        ///  Endpoint dedicado a la actualización de un paciente Por Id.
+        /// </summary>
         [HttpPut]
         [Route("id")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult UpdatePaciente(int id, PacienteDto paciente)
         {
             try
@@ -119,9 +139,14 @@ namespace FBQ.Salud_Presentation.Controllers
                 return BadRequest(e.Message);
             }
         }
-
+        /// <summary>
+        ///  Endpoint dedicado a la eliminación de un paciente Por Id.
+        /// </summary>
         [HttpDelete()]
         [Route("id")]
+        [ProducesResponseType(typeof(Response),StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Response),StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult DeletePaciente(int id)
         {
             try

@@ -9,7 +9,6 @@ namespace FBQ.Salud_Domain.Dtos
 {
     public class HistoriaClinicaDTO
     {
-        public int HistoriaClinicaId { get; set; }
         [Required]
         public int PacienteId { get; set; }
         [Required]

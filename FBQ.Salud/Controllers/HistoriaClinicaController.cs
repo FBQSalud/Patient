@@ -18,8 +18,12 @@ namespace FBQ.Salud_Presentation.Controllers
             _service = service;
             _mapper = mapper;
         }
-
+        /// <summary>
+        ///  Endpoint dedicado a la obtencion de una lista de historias clinicas. 
+        /// </summary>
         [HttpGet]
+        [ProducesResponseType(typeof(HistoriaClinicaDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult GetAll()
         {
             try
@@ -35,7 +39,14 @@ namespace FBQ.Salud_Presentation.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        /// <summary>
+        ///  Endpoint dedicado a la obtener una historia clinica Por Id.
+        /// </summary>
+        [HttpGet]
+        [Route("id")]
+        [ProducesResponseType(typeof(HistoriaClinicaDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> GetHistoriaClinicaById(int id)
         {
             try
@@ -54,7 +65,12 @@ namespace FBQ.Salud_Presentation.Controllers
             }
         }
 
+        /// <summary>
+        ///  Endpoint dedicado a la creación una historia clinica.
+        /// </summary>
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult CreateHistoriaClinica([FromForm] HistoriaClinicaDTO historiaClinica)
         {
             try
@@ -75,7 +91,14 @@ namespace FBQ.Salud_Presentation.Controllers
             }
         }
 
-        [HttpPut("{id}")]
+        /// <summary>
+        ///  Endpoint dedicado a la actualización de una historia clinica Por Id.
+        /// </summary>
+        [HttpPut]
+        [Route("id")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult UpdateHistoriaClinica(int id, HistoriaClinicaDTO historiaClinica)
         {
             try
@@ -103,7 +126,14 @@ namespace FBQ.Salud_Presentation.Controllers
             }
         }
 
-        [HttpDelete("{id}")]
+        /// <summary>
+        ///  Endpoint dedicado a la eliminación de un historia clinica Por Id.
+        /// </summary>
+        [HttpDelete()]
+        [Route("id")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult DeleteHistoriaClinica(int id)
         {
             try

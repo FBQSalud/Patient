@@ -5,7 +5,6 @@ namespace FBQ.Salud_Domain.Dtos
 {
     public class TurnoDTO
     {
-        public int TurnoId { get; set; }
         [Required]
         public int MedicoId { get; set; }
         [Required]

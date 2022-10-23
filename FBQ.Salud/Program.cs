@@ -4,6 +4,7 @@ using FBQ.Salud_Application.Services;
 using FBQ.Salud_Application.Validation;
 using FBQ.Salud_Domain.Commands;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +18,12 @@ builder.Services.AddDbContext<FbqSaludDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// Set the comments path for the Swagger JSON and UI.
+var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+
+builder.Services.AddSwaggerGen(c => c.IncludeXmlComments(xmlPath));
+
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 //Repository
 builder.Services.AddTransient<ITurnosRepository, TurnosRepository>();

@@ -17,8 +17,13 @@ namespace FBQ.Salud_Presentation.Controllers
             _service = service;
             _mapper = mapper;
         }
-
+        /// <summary>
+        ///  Endpoint dedicado a la obtencion de una lista de historias clinicas. 
+        /// </summary>
         [HttpGet]
+        [ProducesResponseType(typeof(TurnoDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult GetAll()
         {
             try
@@ -34,7 +39,13 @@ namespace FBQ.Salud_Presentation.Controllers
             }
         }
 
+        /// <summary>
+        ///  Endpoint dedicado a la obtencion de una lista de turnos.
+        /// </summary>
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(TurnoDTO),StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> GetTurnosById(int id)
         {
             try
@@ -52,8 +63,13 @@ namespace FBQ.Salud_Presentation.Controllers
                 return BadRequest(e.Message);
             }
         }
-
+        /// <summary>
+        ///  Endpoint dedicado a la creación de un turno.
+        /// </summary>
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult CreateTurno([FromForm] TurnoDTO turno)
         {
             try
@@ -73,8 +89,13 @@ namespace FBQ.Salud_Presentation.Controllers
                 return BadRequest(e.Message);
             }
         }
-
+        /// <summary>
+        ///  Endpoint dedicado a la actualización de un turno.
+        /// </summary>
         [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult UpdateTurno(int id, TurnoDTO turno)
         {
             try
@@ -101,8 +122,13 @@ namespace FBQ.Salud_Presentation.Controllers
                 return BadRequest(e.Message);
             }
         }
-
+        /// <summary>
+        ///  Endpoint dedicado a la eliminacion de un turno. 
+        /// </summary>
         [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult DeleteTurno(int id)
         {
             try
