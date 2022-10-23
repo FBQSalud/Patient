@@ -9,7 +9,8 @@ namespace FBQ.Salud_Domain.Commands
 {
     public interface IPacienteRepository
     {
-        List<Paciente> GetAll();
+        List<Paciente> GetAll(bool edad, string? nombre);
+        List<Paciente> GetListPacientesByNombre(string? nombre);
         Paciente GetPacienteById(int id);
         Paciente GetPacienteByDNI(string dni);
         void Update(Paciente paciente);

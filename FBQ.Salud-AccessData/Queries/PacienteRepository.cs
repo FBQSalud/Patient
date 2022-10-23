@@ -25,12 +25,28 @@ namespace FBQ.Salud_AccessData.Queries
             _context.SaveChanges();
         }
 
-        public List<Paciente> GetAll()
+        public List<Paciente> GetAll(bool edad, string? nombre)
         {
-            var pacientes = (from u in _context.Pacientes where u.Estado == false select u).ToList();
+            if (edad)
+            {
+                var pacientes = (from u in _context.Pacientes where u.Estado == false select u).OrderByDescending(o=>o.Edad).ToList();
+                return pacientes;
+            }
+            else
+            {
+                var pacientes = (from o in _context.Pacientes where o.Estado==false select o)
+                                        .OrderBy(o => o.Edad).ToList();
+                return pacientes;
+            }
+            //var pacientes = (from u in _context.Pacientes where u.Estado == false select u).ToList();
+            //return pacientes;
+        }
+        public List<Paciente> GetListPacientesByNombre(string? nombre)
+        {
+            var pacientes = _context.Pacientes.Where(x => x.Nombre.ToLower().IndexOf(nombre) > -1).ToList();
+
             return pacientes;
         }
-
         public Paciente GetPacienteByDNI(string dni)
         {
             return _context.Pacientes.FirstOrDefault(x => x.DNI == dni);

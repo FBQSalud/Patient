@@ -25,11 +25,11 @@ namespace FBQ.Salud_Presentation.Controllers
         [ProducesResponseType(typeof(PacienteDto), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(PacienteDto), StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult GetAll()
+        public IActionResult GetAll(bool edad, string? nombre)
         {
             try
             {
-                var patients = _service.GetAll();
+                var patients = _service.GetAll(edad,nombre);
 
                 if (patients.Count() == 0)
                 {
@@ -47,7 +47,7 @@ namespace FBQ.Salud_Presentation.Controllers
             }
         }
         /// <summary>
-        ///  Endpoint dedicado a la obtener un paciente Por Id.
+        ///  Endpoint dedicado a obtener un paciente Por Id.
         /// </summary>
         [HttpGet]
         [Route("id")]
@@ -60,13 +60,36 @@ namespace FBQ.Salud_Presentation.Controllers
             {
                 var paciente = _service.GetPacienteById(id);
 
-                var pacienteMapped = _mapper.Map<PacienteDto>(paciente);
-
-                if (paciente == null)
+                if (paciente.Success)
                 {
-                    return NotFound("Paciente Inexistente");
+                    return Ok(paciente);
                 }
-                return Ok(pacienteMapped);
+                return NotFound(paciente);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+        /// <summary>
+        ///  Endpoint dedicado a obtener un paciente Por DNI.
+        /// </summary>
+        [HttpGet]
+        [Route("dni")]
+        [ProducesResponseType(typeof(PacienteDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> GetbyDni(int dni)
+        {
+            try
+            {
+                var paciente = _service.GetPacienteByDni(dni.ToString());
+
+                if (paciente.Success)
+                {
+                    return Ok(paciente);
+                }
+                return NotFound(paciente);
             }
             catch (Exception e)
             {
@@ -112,27 +135,16 @@ namespace FBQ.Salud_Presentation.Controllers
         {
             try
             {
-                if (paciente == null)
+                var UserResponse = _service.Update(id, paciente);
+
+                if (UserResponse.Success)
                 {
-                    return BadRequest("Completar todos los campos para realizar la actualizacion");
+                    return Ok(UserResponse);
                 }
-
-                var pacienteUpdate = _service.GetPacienteById(id);
-
-                if (pacienteUpdate == null)
+                else
                 {
-                    return NotFound(new Response
-                    {
-                        Success = true,
-                        Message = "Paciente inexistente",
-                        Result = ""
-                    });
+                    return NotFound(UserResponse);
                 }
-
-                _mapper.Map(paciente, pacienteUpdate);
-                _service.Update(pacienteUpdate);
-
-                return Ok("Paciente actualizado");
             }
             catch (Exception e)
             {

@@ -372,3 +372,8 @@ E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.pdb
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.genruntimeconfig.cache
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\ref\FBQ.Salud-Presentation.dll
+C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.xml
+C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.xml
+C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

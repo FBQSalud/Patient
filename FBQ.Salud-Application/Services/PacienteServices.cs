@@ -8,9 +8,10 @@ namespace FBQ.Salud_Application.Services
 {
     public interface IPacienteService
     {
-        List<PacienteDto> GetAll();
-        Paciente GetPacienteById(int id);
-        void Update(Paciente paciente);
+        List<PacienteRequest> GetAll(bool edad, string? nombre);
+        Response GetPacienteById(int id);
+        Response GetPacienteByDni(string dni);
+        Response Update(int id, PacienteDto paciente);
         Response Delete(int pacienteId);
         Response Add(PacienteDto paciente);
     }
@@ -110,23 +111,148 @@ namespace FBQ.Salud_Application.Services
             }
         }
 
-        public List<PacienteDto> GetAll()
+        public List<PacienteRequest> GetAll(bool edad, string? nombre)
         {
-            var pacientes = _pacienteRepository.GetAll();
+            //var pacientes = _pacienteRepository.GetAll(edad,nombre);
 
-            var pacientesMapeados = _mapper.Map<List<PacienteDto>>(pacientes);
+            //var pacientesMapeados = _mapper.Map<List<PacienteDto>>(pacientes);
 
-            return pacientesMapeados;
+            //return pacientesMapeados;
+            if (nombre == null)
+            {
+                var pacientes = _pacienteRepository.GetAll(edad, nombre);
+
+                List<PacienteRequest> pacientesMapeados = new List<PacienteRequest>();
+
+                foreach (var p in pacientes)
+                {
+                    var pacientemaper = new PacienteRequest
+                    {
+                        Nombre = p.Nombre,
+                        Apellido = p.Apellido,
+                        Edad = p.Edad,
+                        Sexo = p.Sexo,
+                        DNI = p.DNI,
+                        Direccion = p.Direccion,
+                        DirecionNumero = p.DirecionNumero,
+                        Telefono = p.Telefono,
+                        Foto = p.Foto,
+                        sort = edad
+                    };
+                    pacientesMapeados.Add(pacientemaper);
+                }
+                return pacientesMapeados;
+            }
+            else
+            {
+                var productos = _pacienteRepository.GetListPacientesByNombre(nombre);
+
+                List<PacienteRequest> pacientesMapeados = new List<PacienteRequest>();
+
+                foreach (var p in productos)
+                {
+                    var pacientemaper = new PacienteRequest
+                    {
+                        Nombre = p.Nombre,
+                        Apellido = p.Apellido,
+                        Edad = p.Edad,
+                        Sexo = p.Sexo,
+                        DNI = p.DNI,
+                        Direccion = p.Direccion,
+                        DirecionNumero = p.DirecionNumero,
+                        Telefono = p.Telefono,
+                        Foto = p.Foto,
+                        sort = edad
+                    };
+                    pacientesMapeados.Add(pacientemaper);
+                }
+                return pacientesMapeados;
+            }
+        }
+        public Response GetPacienteByDni(string dni)
+        {
+            var paciente = _pacienteRepository.GetPacienteByDNI(dni);
+
+            if (paciente == null)
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "Paciente con dni " + dni + " inexistente",
+                    Result = ""
+                };
+            }
+            var pacienteMappeado = _mapper.Map<PacienteDto>(paciente);
+
+            return new Response
+            {
+                Success = true,
+                Message = "Exito",
+                Result = pacienteMappeado
+            };
         }
 
-        public Paciente GetPacienteById(int id)
+        public Response GetPacienteById(int id)
         {
-            return _pacienteRepository.GetPacienteById(id);
+            var paciente = _pacienteRepository.GetPacienteById(id);
+
+            if (paciente == null)
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "Paciente con id " + id + " inexistente",
+                    Result = ""
+                }; 
+            }
+            var pacienteMappeado= _mapper.Map<PacienteDto>(paciente);
+
+            return new Response
+            {
+                Success = true,
+                Message = "Exito",
+                Result = pacienteMappeado
+            };
         }
 
-        public void Update(Paciente paciente)
+        public Response Update(int id,PacienteDto paciente)
         {
-            _pacienteRepository.Update(paciente);
+            //_pacienteRepository.Update(paciente);
+            var pacienteUpdate = _pacienteRepository.GetPacienteById(id);
+
+            var pacienteMapped = _mapper.Map<Paciente>(paciente);
+
+            if (pacienteUpdate != null && _pacienteValidation.ExistePaciente(pacienteMapped))
+            {
+                _mapper.Map(paciente, pacienteUpdate);
+
+                _pacienteRepository.Update(pacienteUpdate);
+
+                return new Response
+                {
+                    Success = true,
+                    Message = "Paciente modificado",
+                    Result = paciente
+                };
+            }
+            else
+            {
+                if (_pacienteValidation.ExistePaciente(pacienteMapped)==false)
+                {
+                    return new Response
+                    {
+                        Success = false,
+                        Message = "Paciente con dni existente",
+                        Result = ""
+                    };
+                }
+                return new Response
+                {
+                    Success = false,
+                    Message = "Paciente con id " + id + " inexistente",
+                    Result = ""
+                };
+            }
         }
     }
 }

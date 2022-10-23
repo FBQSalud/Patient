@@ -6,14 +6,13 @@ namespace FBQ.Salud_Domain.Entities
     public class Turno
     {
         public int TurnoId { get; set; }
-        [Required]
         public int MedicoId { get; set; }
-        [Required]
         public int PacienteId { get; set; }
-        [Required]
         public DateTime FechaTurno { get; set; }
-        [Required]
         public bool EstadoTurno { get; set; } = false;
+        public string DiagnosticoId { get; set; }
+
         public Paciente Paciente { get; set; }
+        public Diagnostico Diagnostico { get; set; }
     }
 }

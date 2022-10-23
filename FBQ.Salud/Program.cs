@@ -3,14 +3,22 @@ using FBQ.Salud_AccessData.Queries;
 using FBQ.Salud_Application.Services;
 using FBQ.Salud_Application.Validation;
 using FBQ.Salud_Domain.Commands;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services
+        .AddControllers()
+        .AddFluentValidation(c =>
+        c.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly()));
 
-builder.Services.AddControllers();
+//Fluent Validation
+builder.Services.AddValidatorsFromAssemblyContaining<PacienteValidation>();
+
 builder.Services.AddControllers().AddJsonOptions(x =>
                                 x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles);
 builder.Services.AddDbContext<FbqSaludDbContext>(options =>
