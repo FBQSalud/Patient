@@ -14,7 +14,8 @@ namespace FBQ.Salud_Domain.Entities
         public DateTime FechaApertura { get; set; }
         public bool Estado { get; set; }
         public string Diagnostico { get; set; }
-
+        public string Recomendacion { get; set; }
+        public string Medicacion { get; set; }
         public Paciente Paciente { get; set; }
     }
 }

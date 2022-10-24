@@ -34,13 +34,15 @@ builder.Services.AddSwaggerGen(c => c.IncludeXmlComments(xmlPath));
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 //Repository
-builder.Services.AddTransient<ITurnosRepository, TurnosRepository>();
-builder.Services.AddTransient<ITurnoServices, TurnoServices>();
-builder.Services.AddTransient<IPacienteRepository, PacienteRepository>();
-builder.Services.AddTransient<IPacienteService, PacienteServices>();
-builder.Services.AddTransient<IHistoriaClinicaRepository, HistoriaClinicaRepository>();
-builder.Services.AddTransient<IHistoriaClinicaServices, HistoriaClinicaServices>();
-builder.Services.AddTransient<IPacienteValidationExist, PacienteValidationExist>();
+builder.Services.AddScoped<ITurnosRepository, TurnosRepository>();
+builder.Services.AddScoped<ITurnoServices, TurnoServices>();
+builder.Services.AddScoped<IPacienteRepository, PacienteRepository>();
+builder.Services.AddScoped<IPacienteService, PacienteServices>();
+builder.Services.AddScoped<IDiagnosticoRepository, DiagnosticoRepository>();
+builder.Services.AddScoped<IDiagnosticoServices, DiagnosticoServices>();
+builder.Services.AddScoped<IHistoriaClinicaRepository, HistoriaClinicaRepository>();
+builder.Services.AddScoped<IHistoriaClinicaServices, HistoriaClinicaServices>();
+builder.Services.AddScoped<IPacienteValidationExist, PacienteValidationExist>();
 
 
 //Cors

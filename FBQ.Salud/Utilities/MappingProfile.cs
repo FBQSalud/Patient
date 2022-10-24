@@ -11,6 +11,10 @@ namespace FBQ.Salud_Presentation.Utilities
             CreateMap<Turno, TurnoDTO>().ReverseMap();
             CreateMap<Paciente, PacienteDto>().ReverseMap();
             CreateMap<HistoriaClinica,HistoriaClinicaDTO>().ReverseMap();
+            CreateMap<Turno, TurnoDTOForUpdate>().ReverseMap();
+            CreateMap<Diagnostico, DiagnosticoDTO>().ReverseMap();
+            CreateMap<Turno, TurnoDTOForCreated>().ReverseMap();
+            CreateMap<HistoriaClinica, HistoriaClinicaDTOForUpdate>().ReverseMap();
         }
     }
 }

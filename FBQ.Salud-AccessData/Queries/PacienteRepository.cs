@@ -38,12 +38,10 @@ namespace FBQ.Salud_AccessData.Queries
                                         .OrderBy(o => o.Edad).ToList();
                 return pacientes;
             }
-            //var pacientes = (from u in _context.Pacientes where u.Estado == false select u).ToList();
-            //return pacientes;
         }
         public List<Paciente> GetListPacientesByNombre(string? nombre)
         {
-            var pacientes = _context.Pacientes.Where(x => x.Nombre.ToLower().IndexOf(nombre) > -1).ToList();
+            var pacientes = _context.Pacientes.Where(x =>x.Estado==false && x.Nombre.ToLower().IndexOf(nombre) > -1).ToList();
 
             return pacientes;
         }

@@ -113,11 +113,6 @@ namespace FBQ.Salud_Application.Services
 
         public List<PacienteRequest> GetAll(bool edad, string? nombre)
         {
-            //var pacientes = _pacienteRepository.GetAll(edad,nombre);
-
-            //var pacientesMapeados = _mapper.Map<List<PacienteDto>>(pacientes);
-
-            //return pacientesMapeados;
             if (nombre == null)
             {
                 var pacientes = _pacienteRepository.GetAll(edad, nombre);

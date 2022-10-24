@@ -18,7 +18,7 @@ namespace FBQ.Salud_Presentation.Controllers
             _mapper = mapper;
         }
         /// <summary>
-        ///  Endpoint dedicado a la obtencion de una lista de historias clinicas. 
+        ///  Endpoint dedicado a la obtencion de una lista de atenciones. 
         /// </summary>
         [HttpGet]
         [ProducesResponseType(typeof(TurnoDTO), StatusCodes.Status200OK)]
@@ -28,19 +28,25 @@ namespace FBQ.Salud_Presentation.Controllers
         {
             try
             {
-                var turno = _service.GetAll();
-                var turnoMapped = _mapper.Map<List<TurnoDTO>>(turno);
+                var turnos = _service.GetAll();
 
-                return Ok(turnoMapped);
+                if (turnos.Count() == 0)
+                {
+
+                    return NotFound(turnos);
+                }
+                else
+                {
+                    return Ok(turnos);
+                }
             }
             catch (Exception e)
             {
                 return BadRequest(e.Message);
             }
         }
-
         /// <summary>
-        ///  Endpoint dedicado a la obtencion de una lista de turnos.
+        ///  Endpoint dedicado a la obtencion de una atencion.
         /// </summary>
         [HttpGet("{id}")]
         [ProducesResponseType(typeof(TurnoDTO),StatusCodes.Status200OK)]
@@ -50,13 +56,13 @@ namespace FBQ.Salud_Presentation.Controllers
         {
             try
             {
-                var turno = _service.GetTurnoById(id);
-                var turnoMapped = _mapper.Map<TurnoDTO>(turno);
-                if (turno == null)
+                var historia = _service.GetTurnoById(id);
+
+                if (historia.Success)
                 {
-                    return NotFound("Turno Inexistente");
+                    return Ok(historia);
                 }
-                return Ok(turnoMapped);
+                return NotFound(historia);
             }
             catch (Exception e)
             {
@@ -64,25 +70,26 @@ namespace FBQ.Salud_Presentation.Controllers
             }
         }
         /// <summary>
-        ///  Endpoint dedicado a la creación de un turno.
+        ///  Endpoint dedicado a la creación de una atencion.
         /// </summary>
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult CreateTurno([FromForm] TurnoDTO turno)
+        public IActionResult CreateTurno([FromForm] TurnoDTOForCreated turno)
         {
             try
             {
-                var turnoEntity = _service.CreateTurno(turno);
+                var TurnoNuevo = _service.CreateTurno(turno);
 
-                if (turnoEntity != null)
+                if (TurnoNuevo.Success)
                 {
-                    var turnoCreated = _mapper.Map<TurnoDTO>(turnoEntity);
-                    return Ok("Turno Creado");
+                    return new JsonResult(TurnoNuevo) { StatusCode = 201 };
                 }
-
-                return BadRequest();
+                else
+                {
+                    return new JsonResult(TurnoNuevo) { StatusCode = 404 };
+                }
             }
             catch (Exception e)
             {
@@ -96,26 +103,20 @@ namespace FBQ.Salud_Presentation.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult UpdateTurno(int id, TurnoDTO turno)
+        public IActionResult UpdateTurno(int id, TurnoDTOForUpdate turno)
         {
             try
             {
-                if (turno == null)
+                var TurnoResponse = _service.Update(id, turno);
+
+                if (TurnoResponse.Success)
                 {
-                    return BadRequest("Completar todos los campos para realizar la actualizacion");
+                    return Ok(TurnoResponse);
                 }
-
-                var turnoUpdate = _service.GetTurnoById(id);
-
-                if (turnoUpdate == null)
+                else
                 {
-                    return NotFound("Turno Inexistente");
+                    return NotFound(TurnoResponse);
                 }
-
-                _mapper.Map(turno, turnoUpdate);
-                _service.Update(turnoUpdate);
-
-                return Ok("Turno actualizado");
             }
             catch (Exception e)
             {
@@ -133,15 +134,14 @@ namespace FBQ.Salud_Presentation.Controllers
         {
             try
             {
-                var turno = _service.GetTurnoById(id);
+                var turno = _service.Delete(id);
 
-                if (turno == null)
+                if (turno.Success == false)
                 {
-                    return NotFound("Turno Inexistente");
+                    return NotFound();
                 }
-
-                _service.Delete(turno);
-                return Ok("Turno eliminado");
+                else
+                    return Ok(turno);
             }
             catch (Exception e)
             {

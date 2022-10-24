@@ -8,54 +8,210 @@ namespace FBQ.Salud_Application.Services
 {
     public interface IHistoriaClinicaServices
     {
-        List<HistoriaClinica> GetAll();
-        HistoriaClinica GetHistoriaClinicaById(int id);
-        void Update(HistoriaClinica historiaClinica);
-        void Delete(HistoriaClinica historiaClinica);
-        void Add(HistoriaClinica historiaClinica);
-        HistoriaClinica CreateHistoriaClinica(HistoriaClinicaDTO historiaClinica);
+        List<HistoriaClinicaRequest> GetAll(bool fecha, int? pacienteId);
+        Response GetHistoriaClinicaById(int id);
+        Response Update(int id, HistoriaClinicaDTOForUpdate historiaClinica);
+        Response Delete(int historiaClinicaId);
+        Response CreateHistoriaClinica(HistoriaClinicaDTO historiaClinica);
     }
     public class HistoriaClinicaServices : IHistoriaClinicaServices
     {
         IHistoriaClinicaRepository _historiaClinicaRepository;
         private readonly IMapper _mapper;
+        private readonly IPacienteRepository _pacienteRepository;
 
-        public HistoriaClinicaServices(IHistoriaClinicaRepository historiaClinicaRepository, 
-            IMapper mapper)
+        public HistoriaClinicaServices(IHistoriaClinicaRepository historiaClinicaRepository,
+            IMapper mapper,
+            IPacienteRepository pacienteRepository)
         {
             _historiaClinicaRepository = historiaClinicaRepository;
             _mapper = mapper;
+            _pacienteRepository = pacienteRepository;
         }
-        public List<HistoriaClinica> GetAll()
+        public List<HistoriaClinicaRequest> GetAll(bool fecha, int? pacienteId)
         {
-            return _historiaClinicaRepository.GetAll();
+            if (pacienteId == null)
+            {
+                var historias = _historiaClinicaRepository.GetAll(fecha, pacienteId);
+
+                List<HistoriaClinicaRequest> historiasMapeados = new List<HistoriaClinicaRequest>();
+
+                foreach (var p in historias)
+                {
+                    var historyMaper = new HistoriaClinicaRequest
+                    {
+                        PacienteId = p.PacienteId,
+                        FechaApertura = p.FechaApertura,
+                        Estado = p.Estado,
+                        Diagnostico = p.Diagnostico,
+                        Recomendacion = p.Recomendacion,
+                        Medicacion = p.Medicacion,
+                        sort = fecha
+                    };
+                    historiasMapeados.Add(historyMaper);
+                }
+                return historiasMapeados;
+            }
+            else
+            {
+                var historias = _historiaClinicaRepository.GetListHistoriaClinicaByPacienteId(pacienteId);
+
+                List<HistoriaClinicaRequest> historiasMapeados = new List<HistoriaClinicaRequest>();
+
+                foreach (var p in historias)
+                {
+                    var historyMaper = new HistoriaClinicaRequest
+                    {
+                        PacienteId = p.PacienteId,
+                        FechaApertura = p.FechaApertura,
+                        Estado = p.Estado,
+                        Diagnostico = p.Diagnostico,
+                        Recomendacion = p.Recomendacion,
+                        Medicacion = p.Medicacion,
+                        sort = fecha
+                    };
+                    historiasMapeados.Add(historyMaper);
+                }
+                return historiasMapeados;
+            }
         }
-        public HistoriaClinica GetHistoriaClinicaById(int id)
+        public Response GetHistoriaClinicaById(int id)
         {
-            return _historiaClinicaRepository.GetHistoriaClinicaById(id);
-        }
-       
-        public HistoriaClinica CreateHistoriaClinica(HistoriaClinicaDTO historiaClinica)
-        {
-            var historiaClinicaMapped = _mapper.Map<HistoriaClinica>(historiaClinica);
-            _historiaClinicaRepository.Add(historiaClinicaMapped);
-            return historiaClinicaMapped;
+            var historia = _historiaClinicaRepository.GetHistoriaClinicaById(id);
+
+            if (historia == null)
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "Historia clinica con id " + id + " inexistente",
+                    Result = ""
+                };
+            }
+            var historiaMappeada = _mapper.Map<HistoriaClinicaDTO>(historia);
+
+            return new Response
+            {
+                Success = true,
+                Message = "Exito",
+                Result = historiaMappeada
+            };
         }
 
-        public void Add(HistoriaClinica historiaClinica)
+        public Response CreateHistoriaClinica(HistoriaClinicaDTO historiaClinica)
         {
-            var historia = _mapper.Map<HistoriaClinica>(historiaClinica);
-            _historiaClinicaRepository.Add(historiaClinica);
-        }
+            var paciente = _pacienteRepository.GetPacienteById(historiaClinica.PacienteId);
 
-        public void Update(HistoriaClinica historiaClinica)
-        {
-            _historiaClinicaRepository.Update(historiaClinica);
-        }
+            var fechaValida = historiaClinica.FechaApertura >= DateTime.Today.Date;
+            if (!fechaValida)
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "La fecha debe ser a partir de " + DateTime.Today.Date,
+                    Result = ""
+                };
+            }
+            if (paciente == null)
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "No existe un paciente con id " + historiaClinica.PacienteId,
+                    Result = ""
+                };
+            }
+            else
+            {
+                var historiaMapped = _mapper.Map<HistoriaClinica>(historiaClinica);
+                _historiaClinicaRepository.Add(historiaMapped);
 
-        public void Delete(HistoriaClinica historiaClinica)
+                return new Response
+                {
+                    Success = true,
+                    Message = "Exito",
+                    Result = historiaClinica
+                };
+            }
+        }
+        public Response Update(int id, HistoriaClinicaDTOForUpdate historiaClinica)
         {
-            _historiaClinicaRepository.Delete(historiaClinica);
-        }      
+            var paciente = _pacienteRepository.GetPacienteById(historiaClinica.PacienteId);
+
+            if (paciente == null)
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "No existe un paciente con id " + historiaClinica.PacienteId,
+                    Result = ""
+                };
+            }
+            var historyUpdate = _historiaClinicaRepository.GetHistoriaClinicaById(id);
+
+            if (historyUpdate != null)
+            {
+                _mapper.Map(historiaClinica, historyUpdate);
+
+                _historiaClinicaRepository.Update(historyUpdate);
+
+                return new Response
+                {
+                    Success = true,
+                    Message = "Historia clinica modificada",
+                    Result = historiaClinica
+                };
+            }
+            else
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "Historia clinica con id " + id + " inexistente",
+                    Result = ""
+                };
+            }
+        }
+        public Response Delete(int historiaClinicaId)
+        {
+            var historia = _historiaClinicaRepository.GetHistoriaClinicaById(historiaClinicaId);
+
+            if (historia != null)
+            {
+                if (historia.Estado == true)
+                {
+                    return new Response
+                    {
+                        Success = false,
+                        Message = "Historia clinica inexistente",
+                        Result = ""
+                    };
+                }
+                else
+                {
+                    historia.Estado = true;
+
+                    _historiaClinicaRepository.Update(historia);
+
+                    var historiaMappeo = _mapper.Map<HistoriaClinicaDTO>(historia);
+
+                    return new Response
+                    {
+                        Success = true,
+                        Message = "Historia clinica eliminada",
+                        Result = historiaMappeo
+                    };
+                }
+            }
+            else
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "Historia con id " + historiaClinicaId + " inexistente",
+                    Result = " "
+                };
+            }
+        }
     }
 }
