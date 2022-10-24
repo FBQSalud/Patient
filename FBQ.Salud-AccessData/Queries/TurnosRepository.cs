@@ -16,7 +16,8 @@ namespace FBQ.Salud_AccessData.Queries
 
         public List<Turno> GetAll()
         {
-            return _context.Turnos.ToList();
+            var turnos = (from u in _context.Turnos where u.EstadoTurno == false select u).ToList();
+            return turnos;
         }
 
         public Turno GetTurnoById(int id)

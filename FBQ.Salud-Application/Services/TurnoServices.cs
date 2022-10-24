@@ -2,59 +2,206 @@
 using FBQ.Salud_Domain.Commands;
 using FBQ.Salud_Domain.Dtos;
 using FBQ.Salud_Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FBQ.Salud_Application.Services
 {
     public interface ITurnoServices
     {
-        List<Turno> GetAll();
-        Turno GetTurnoById(int id);
-        void Update(Turno turno);
-        void Delete(Turno turno);
-        Turno CreateTurno(TurnoDTO turno);
+        List<TurnoDTO> GetAll();
+        Response GetTurnoById(int id);
+        Response Update(int id, TurnoDTOForUpdate Turno);
+        Response Delete(int turnoId);
+        Response CreateTurno(TurnoDTOForCreated turno);
     }
     public class TurnoServices : ITurnoServices
     {
         private ITurnosRepository _turnosRepository;
+        private IPacienteRepository _pacienteRepository;
+        private IDiagnosticoRepository _diagnosticoRepository;
         private readonly IMapper _mapper;
 
         public TurnoServices(ITurnosRepository turnosRepository,
-            IMapper mapper)
+            IMapper mapper,
+            IPacienteRepository pacienteRepository,IDiagnosticoRepository diagnosticoRepository)
         {
             _turnosRepository = turnosRepository;
-            _mapper = mapper;   
+            _mapper = mapper;
+            _pacienteRepository = pacienteRepository;
+            _diagnosticoRepository = diagnosticoRepository;
         }
 
-        public List<Turno> GetAll()
+        public List<TurnoDTO> GetAll()
         {
-            return _turnosRepository.GetAll();
+            var turnos= _turnosRepository.GetAll();
+
+            var turnosMapeados=_mapper.Map<List<TurnoDTO>>(turnos);
+
+            return turnosMapeados;
         }
-        public Turno GetTurnoById(int id)
+        public Response GetTurnoById(int id)
         {
-            return _turnosRepository.GetTurnoById(id);
+            var turno = _turnosRepository.GetTurnoById(id);
+
+            if (turno == null)
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "Atencion con id " + id + " inexistente",
+                    Result = ""
+                };
+            }
+            var turnoMappeado = _mapper.Map<TurnoDTO>(turno);
+
+            return new Response
+            {
+                Success = true,
+                Message = "Exito",
+                Result = turnoMappeado
+            };
         }
 
-        public Turno CreateTurno(TurnoDTO turno)
+        public Response CreateTurno(TurnoDTOForCreated turno)
         {
-            var turnoMapped = _mapper.Map<Turno>(turno);
-            _turnosRepository.Add(turnoMapped);
+            var paciente = _pacienteRepository.GetPacienteById(turno.PacienteId);
 
-            return turnoMapped;
+            
+
+            var fechaValida = turno.FechaTurno >= DateTime.Today.Date;
+
+            if (!fechaValida)
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "La fecha debe ser a partir de " + DateTime.Today.Date,
+                    Result = ""
+                };
+            }
+            if (paciente == null || paciente.Estado==true)
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "No existe un paciente con id " + turno.PacienteId,
+                    Result = ""
+                };
+            }
+            else
+            {
+                var turnoMapped = _mapper.Map<Turno>(turno);
+                _turnosRepository.Add(turnoMapped);
+
+                return new Response
+                {
+                    Success = true,
+                    Message = "Exito",
+                    Result = turno
+                };
+            }
         }
 
-        public void Update(Turno turno)
+        public Response Update(int id, TurnoDTOForUpdate turno)
         {
-            _turnosRepository.Update(turno);
+            var turn = _pacienteRepository.GetPacienteById(turno.PacienteId);
+
+            var diagnostico = _diagnosticoRepository.GetDiagnosticoByCodigo(turno.DiagnosticoId);
+
+            if (turn == null)
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "No existe un paciente con id " + turno.PacienteId,
+                    Result = ""
+                };
+            }
+            if (diagnostico == null)
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "No existe diagnostico con codigo " + turno.DiagnosticoId,
+                    Result = ""
+                };
+            }
+            var turnoUpdate = _turnosRepository.GetTurnoById(id);
+
+            if (turnoUpdate != null)
+            {
+                if (turnoUpdate.EstadoTurno == true)
+                {
+                    return new Response
+                    {
+                        Success = false,
+                        Message = "Turno atendido",
+                        Result = ""
+                    };
+                }
+                turnoUpdate.EstadoTurno = true;
+
+                _mapper.Map(turno, turnoUpdate);
+
+                _turnosRepository.Update(turnoUpdate);
+
+                return new Response
+                {
+                    Success = true,
+                    Message = "Turno modificado",
+                    Result = turno
+                };
+            }
+            else
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "Turno con id " + id + " inexistente",
+                    Result = ""
+                };
+            }
         }
 
-        public void Delete(Turno turno)
+        public Response Delete(int turnoId)
         {
-            _turnosRepository.Delete(turno);
+            var turno = _turnosRepository.GetTurnoById(turnoId);
+
+            if (turno != null)
+            {
+                if (turno.EstadoTurno == true)
+                {
+                    return new Response
+                    {
+                        Success = false,
+                        Message = "Turno inexistente",
+                        Result = ""
+                    };
+                }
+                else
+                {
+                    turno.EstadoTurno = true;
+
+                    _turnosRepository.Update(turno);
+
+                    var TurnoMappeo = _mapper.Map<TurnoDTO>(turno);
+
+                    return new Response
+                    {
+                        Success = true,
+                        Message = "Turno eliminado",
+                        Result = TurnoMappeo
+                    };
+                }
+            }
+            else
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "Turno con id " + turnoId + " inexistente",
+                    Result = " "
+                };
+            }
         }
     }
 }

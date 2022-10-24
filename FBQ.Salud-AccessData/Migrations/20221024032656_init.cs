@@ -52,7 +52,9 @@ namespace FBQ.Salud_AccessData.Migrations
                     PacienteId = table.Column<int>(type: "int", nullable: false),
                     FechaApertura = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Estado = table.Column<bool>(type: "bit", nullable: false),
-                    Diagnostico = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Diagnostico = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Recomendacion = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Medicacion = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -75,7 +77,7 @@ namespace FBQ.Salud_AccessData.Migrations
                     PacienteId = table.Column<int>(type: "int", nullable: false),
                     FechaTurno = table.Column<DateTime>(type: "datetime2", nullable: false),
                     EstadoTurno = table.Column<bool>(type: "bit", nullable: false),
-                    DiagnosticoId = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                    DiagnosticoId = table.Column<string>(type: "nvarchar(450)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -84,8 +86,7 @@ namespace FBQ.Salud_AccessData.Migrations
                         name: "FK_Turnos_Diagnostico_DiagnosticoId",
                         column: x => x.DiagnosticoId,
                         principalTable: "Diagnostico",
-                        principalColumn: "Codigo",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Codigo");
                     table.ForeignKey(
                         name: "FK_Turnos_Pacientes_PacienteId",
                         column: x => x.PacienteId,

@@ -91,8 +91,16 @@ namespace FBQ.Salud_AccessData.Migrations
                     b.Property<DateTime>("FechaApertura")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Medicacion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("PacienteId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Recomendacion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("HistoriaClinicaId");
 
@@ -161,7 +169,6 @@ namespace FBQ.Salud_AccessData.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TurnoId"), 1L, 1);
 
                     b.Property<string>("DiagnosticoId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<bool>("EstadoTurno")
@@ -200,9 +207,7 @@ namespace FBQ.Salud_AccessData.Migrations
                 {
                     b.HasOne("FBQ.Salud_Domain.Entities.Diagnostico", "Diagnostico")
                         .WithMany("Turnos")
-                        .HasForeignKey("DiagnosticoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DiagnosticoId");
 
                     b.HasOne("FBQ.Salud_Domain.Entities.Paciente", "Paciente")
                         .WithMany("Turnos")

@@ -167,7 +167,7 @@ namespace FBQ.Salud_Presentation.Controllers
 
                 if (paciente.Success == false)
                 {
-                    return new JsonResult(paciente) { StatusCode = 404 };
+                    return NotFound();
                 }
                 else
                     return Ok(paciente);

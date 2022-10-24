@@ -7,15 +7,10 @@ using System.Threading.Tasks;
 
 namespace FBQ.Salud_Domain.Dtos
 {
-    public class HistoriaClinicaDTO
+    public class HistoriaClinicaDTOForUpdate
     {
         [Required]
         public int PacienteId { get; set; }
-        [Required]
-        [DataType(DataType.Date)]
-        public DateTime FechaApertura { get; set; }
-        [Required]
-        public bool Estado { get; set; }
         [Required]
         public string Diagnostico { get; set; }
         [Required]

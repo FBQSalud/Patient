@@ -10,9 +10,8 @@ namespace FBQ.Salud_Domain.Entities
         public int PacienteId { get; set; }
         public DateTime FechaTurno { get; set; }
         public bool EstadoTurno { get; set; } = false;
-        public string DiagnosticoId { get; set; }
-
+        public string? DiagnosticoId { get; set; }
         public Paciente Paciente { get; set; }
-        public Diagnostico Diagnostico { get; set; }
+        public Diagnostico? Diagnostico { get; set; }
     }
 }

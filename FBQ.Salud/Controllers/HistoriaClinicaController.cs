@@ -24,14 +24,21 @@ namespace FBQ.Salud_Presentation.Controllers
         [HttpGet]
         [ProducesResponseType(typeof(HistoriaClinicaDTO), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult GetAll()
+        public IActionResult GetAll(bool fecha, int? pacienteId)
         {
             try
             {
-                var historiaClinica = _service.GetAll();
-                var historiaClinicaMapped = _mapper.Map<List<HistoriaClinicaDTO>>(historiaClinica);
+                var historias = _service.GetAll(fecha, pacienteId);
 
-                return Ok(historiaClinicaMapped);
+                if (historias.Count() == 0)
+                {
+
+                    return NotFound(historias);
+                }
+                else
+                {
+                    return Ok(historias);
+                }
             }
             catch (Exception e)
             {
@@ -51,13 +58,13 @@ namespace FBQ.Salud_Presentation.Controllers
         {
             try
             {
-                var historiaClinica = _service.GetHistoriaClinicaById(id);
-                var historiaClinicaMapped = _mapper.Map<HistoriaClinicaDTO>(historiaClinica);
-                if (historiaClinica == null)
+                var historia = _service.GetHistoriaClinicaById(id);
+
+                if (historia.Success)
                 {
-                    return NotFound("Historia Clinica Inexistente");
+                    return Ok(historia);
                 }
-                return Ok(historiaClinicaMapped);
+                return NotFound(historia);
             }
             catch (Exception e)
             {
@@ -75,15 +82,16 @@ namespace FBQ.Salud_Presentation.Controllers
         {
             try
             {
-                var historiaClinicaEntity = _service.CreateHistoriaClinica(historiaClinica);
+                var HistoriaNueva = _service.CreateHistoriaClinica(historiaClinica);
 
-                if (historiaClinicaEntity != null)
+                if (HistoriaNueva.Success)
                 {
-                    var historiaClinicaCreated = _mapper.Map<HistoriaClinicaDTO>(historiaClinicaEntity);
-                    return Ok("Historia Clinica Creada");
+                    return new JsonResult(HistoriaNueva) { StatusCode = 201 };
                 }
-
-                return BadRequest();
+                else
+                {
+                    return new JsonResult(HistoriaNueva) { StatusCode = 404 };
+                }
             }
             catch (Exception e)
             {
@@ -99,26 +107,20 @@ namespace FBQ.Salud_Presentation.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult UpdateHistoriaClinica(int id, HistoriaClinicaDTO historiaClinica)
+        public IActionResult UpdateHistoriaClinica(int id, HistoriaClinicaDTOForUpdate historiaClinica)
         {
             try
             {
-                if (historiaClinica == null)
+                var HistoryResponse = _service.Update(id, historiaClinica);
+
+                if (HistoryResponse.Success)
                 {
-                    return BadRequest("Completar todos los campos para realizar la actualizacion");
+                    return Ok(HistoryResponse);
                 }
-
-                var historiaClinicaUpdate = _service.GetHistoriaClinicaById(id);
-
-                if (historiaClinicaUpdate == null)
+                else
                 {
-                    return NotFound("Historia Clinica Inexistente");
+                    return NotFound(HistoryResponse);
                 }
-
-                _mapper.Map(historiaClinica, historiaClinicaUpdate);
-                _service.Update(historiaClinicaUpdate);
-
-                return Ok("HistoriaClinica actualizada");
             }
             catch (Exception e)
             {
@@ -138,15 +140,14 @@ namespace FBQ.Salud_Presentation.Controllers
         {
             try
             {
-                var historiaClinica = _service.GetHistoriaClinicaById(id);
+                var historias = _service.Delete(id);
 
-                if (historiaClinica == null)
+                if (historias.Success == false)
                 {
-                    return NotFound("Historia Clinica Inexistente");
+                    return NotFound();
                 }
-
-                _service.Delete(historiaClinica);
-                return Ok("Historia Clinica eliminada");
+                else
+                    return Ok(historias);
             }
             catch (Exception e)
             {
