@@ -8,7 +8,7 @@ namespace FBQ.Salud_Application.Services
 {
     public interface IPacienteService
     {
-        List<PacienteRequest> GetAll(bool edad, string? nombre);
+        List<PacienteRequest> GetAll();
         Response GetPacienteById(int id);
         Response GetPacienteByDni(string dni);
         Response Update(int id, PacienteDto paciente);
@@ -111,36 +111,10 @@ namespace FBQ.Salud_Application.Services
             }
         }
 
-        public List<PacienteRequest> GetAll(bool edad, string? nombre)
+        public List<PacienteRequest> GetAll()
         {
-            if (nombre == null)
-            {
-                var pacientes = _pacienteRepository.GetAll(edad, nombre);
-
-                List<PacienteRequest> pacientesMapeados = new List<PacienteRequest>();
-
-                foreach (var p in pacientes)
-                {
-                    var pacientemaper = new PacienteRequest
-                    {
-                        Nombre = p.Nombre,
-                        Apellido = p.Apellido,
-                        Edad = p.Edad,
-                        Sexo = p.Sexo,
-                        DNI = p.DNI,
-                        Direccion = p.Direccion,
-                        DirecionNumero = p.DirecionNumero,
-                        Telefono = p.Telefono,
-                        Foto = p.Foto,
-                        sort = edad
-                    };
-                    pacientesMapeados.Add(pacientemaper);
-                }
-                return pacientesMapeados;
-            }
-            else
-            {
-                var productos = _pacienteRepository.GetListPacientesByNombre(nombre);
+        
+                var productos = _pacienteRepository.GetListPacientesByNombre();
 
                 List<PacienteRequest> pacientesMapeados = new List<PacienteRequest>();
 
@@ -148,6 +122,7 @@ namespace FBQ.Salud_Application.Services
                 {
                     var pacientemaper = new PacienteRequest
                     {
+                        PacienteId = p.PacienteId,
                         Nombre = p.Nombre,
                         Apellido = p.Apellido,
                         Edad = p.Edad,
@@ -157,12 +132,12 @@ namespace FBQ.Salud_Application.Services
                         DirecionNumero = p.DirecionNumero,
                         Telefono = p.Telefono,
                         Foto = p.Foto,
-                        sort = edad
+                        Estado = p.Estado,
                     };
                     pacientesMapeados.Add(pacientemaper);
                 }
                 return pacientesMapeados;
-            }
+            
         }
         public Response GetPacienteByDni(string dni)
         {

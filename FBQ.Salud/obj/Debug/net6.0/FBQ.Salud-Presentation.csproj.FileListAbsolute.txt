@@ -377,3 +377,6 @@ C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Sa
 C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

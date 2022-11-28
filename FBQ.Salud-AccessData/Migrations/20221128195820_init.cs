@@ -77,6 +77,7 @@ namespace FBQ.Salud_AccessData.Migrations
                     PacienteId = table.Column<int>(type: "int", nullable: false),
                     FechaTurno = table.Column<DateTime>(type: "datetime2", nullable: false),
                     EstadoTurno = table.Column<bool>(type: "bit", nullable: false),
+                    Observacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DiagnosticoId = table.Column<string>(type: "nvarchar(450)", nullable: true)
                 },
                 constraints: table =>

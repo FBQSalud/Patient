@@ -9,6 +9,8 @@ namespace FBQ.Salud_Domain.Dtos
 {
     public class PacienteRequest
     {
+        public int PacienteId { get; set; }
+
         public string Nombre { get; set; }
         [Required]
         public string Apellido { get; set; }
@@ -26,6 +28,8 @@ namespace FBQ.Salud_Domain.Dtos
         public string Telefono { get; set; }
         [Required]
         public string Foto { get; set; }
+
+        public bool Estado { get; set; } = false;
         public bool sort { get; set; }
     }
 }

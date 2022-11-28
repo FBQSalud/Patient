@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FBQ.Salud_AccessData.Migrations
 {
     [DbContext(typeof(FbqSaludDbContext))]
-    [Migration("20221024032656_init")]
+    [Migration("20221128195820_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -181,6 +181,9 @@ namespace FBQ.Salud_AccessData.Migrations
 
                     b.Property<int>("MedicoId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Observacion")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PacienteId")
                         .HasColumnType("int");

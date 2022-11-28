@@ -7,7 +7,7 @@ namespace FBQ.Salud_Application.Services
 {
     public interface ITurnoServices
     {
-        List<TurnoDTO> GetAll();
+        List<TurnoRequest> GetAll();
         Response GetTurnoById(int id);
         Response Update(int id, TurnoDTOForUpdate Turno);
         Response Delete(int turnoId);
@@ -30,11 +30,11 @@ namespace FBQ.Salud_Application.Services
             _diagnosticoRepository = diagnosticoRepository;
         }
 
-        public List<TurnoDTO> GetAll()
+        public List<TurnoRequest> GetAll()
         {
             var turnos= _turnosRepository.GetAll();
 
-            var turnosMapeados=_mapper.Map<List<TurnoDTO>>(turnos);
+            var turnosMapeados=_mapper.Map<List<TurnoRequest>>(turnos);
 
             return turnosMapeados;
         }

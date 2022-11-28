@@ -1,12 +1,12 @@
 ﻿
-using FBQ.Salud_Domain.Entities;
 using System.ComponentModel.DataAnnotations;
 
 namespace FBQ.Salud_Domain.Dtos
 {
-    public class TurnoDTO
+    public class TurnoRequest
     {
-        [Required]
+        public int TurnoId { get; set; }
+
         public int MedicoId { get; set; }
         [Required]
         public int PacienteId { get; set; }
@@ -15,6 +15,7 @@ namespace FBQ.Salud_Domain.Dtos
 
         public string? Observacion { get; set; }
 
-        public Diagnostico? Diagnostico { get; set; }
+        [Required]
+        public string DiagnosticoId { get; set; }
     }
 }

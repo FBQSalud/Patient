@@ -180,6 +180,9 @@ namespace FBQ.Salud_AccessData.Migrations
                     b.Property<int>("MedicoId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Observacion")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("PacienteId")
                         .HasColumnType("int");
 

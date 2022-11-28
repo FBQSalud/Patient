@@ -21,7 +21,7 @@ namespace FBQ.Salud_Presentation.Controllers
         ///  Endpoint dedicado a la obtencion de una lista de atenciones. 
         /// </summary>
         [HttpGet]
-        [ProducesResponseType(typeof(TurnoDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(TurnoRequest), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult GetAll()

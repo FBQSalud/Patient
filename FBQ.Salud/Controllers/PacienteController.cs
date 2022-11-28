@@ -22,14 +22,14 @@ namespace FBQ.Salud_Presentation.Controllers
         ///  Endpoint dedicado a la obtencion de una lista de pacientes. 
         /// </summary>
         [HttpGet]
-        [ProducesResponseType(typeof(PacienteDto), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(PacienteDto), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(PacienteRequest), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(PacienteRequest), StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult GetAll(bool edad, string? nombre)
+        public IActionResult GetAll()
         {
             try
             {
-                var patients = _service.GetAll(edad,nombre);
+                var patients = _service.GetAll();
 
                 if (patients.Count() == 0)
                 {
