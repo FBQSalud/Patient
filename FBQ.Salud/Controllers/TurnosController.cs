@@ -76,7 +76,7 @@ namespace FBQ.Salud_Presentation.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult CreateTurno([FromForm] TurnoDTOForCreated turno)
+        public IActionResult CreateTurno([FromBody] TurnoDTOForCreated turno)
         {
             try
             {
@@ -84,7 +84,7 @@ namespace FBQ.Salud_Presentation.Controllers
 
                 if (TurnoNuevo.Success)
                 {
-                    return new JsonResult(TurnoNuevo) { StatusCode = 201 };
+                    return new JsonResult(TurnoNuevo) { StatusCode = 200 };
                 }
                 else
                 {

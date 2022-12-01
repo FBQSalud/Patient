@@ -13,6 +13,8 @@ namespace FBQ.Salud_Domain.Dtos
         [Required]
         public DateTime FechaTurno { get; set; }
 
+        public bool EstadoTurno { get; set; } 
+
         public string? Observacion { get; set; }
 
         [Required]
