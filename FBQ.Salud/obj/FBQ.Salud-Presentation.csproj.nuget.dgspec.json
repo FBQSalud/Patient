@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud\\FBQ.Salud-Presentation.csproj": {}
   },
   "projects": {
@@ -12,9 +13,26 @@
         "projectPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj",
         "packagesPath": "C:\\Users\\Onihori\\.nuget\\packages\\",
         "outputPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-AccessData\\obj\\",
+=======
+    "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud\\FBQ.Salud-Presentation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj",
+        "projectName": "FBQ.Salud-AccessData",
+        "projectPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj",
+        "packagesPath": "C:\\Users\\casto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-AccessData\\obj\\",
+>>>>>>> 805ed665859ad46087ab071e597531724ba5a624
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Onihori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\casto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +46,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj": {
                 "projectPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj"
+=======
+              "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj": {
+                "projectPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj"
+>>>>>>> 805ed665859ad46087ab071e597531724ba5a624
               }
             }
           }
@@ -42,8 +65,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -52,6 +76,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -76,6 +104,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.8, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             }
           },
           "imports": [
@@ -89,15 +121,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -106,9 +153,23 @@
         "projectPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj",
         "packagesPath": "C:\\Users\\Onihori\\.nuget\\packages\\",
         "outputPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-Application\\obj\\",
+=======
+    "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj",
+        "projectName": "FBQ.Salud-Application",
+        "projectPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj",
+        "packagesPath": "C:\\Users\\casto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Application\\obj\\",
+>>>>>>> 805ed665859ad46087ab071e597531724ba5a624
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Onihori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\casto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,11 +183,19 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj": {
                 "projectPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj"
               },
               "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj": {
                 "projectPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj"
+=======
+              "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj": {
+                "projectPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj"
+              },
+              "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj": {
+                "projectPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj"
+>>>>>>> 805ed665859ad46087ab071e597531724ba5a624
               }
             }
           }
@@ -139,8 +208,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -149,6 +219,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -173,6 +247,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.8, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             }
           },
           "imports": [
@@ -186,15 +264,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -203,9 +296,23 @@
         "projectPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj",
         "packagesPath": "C:\\Users\\Onihori\\.nuget\\packages\\",
         "outputPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-Domain\\obj\\",
+=======
+    "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj",
+        "projectName": "FBQ.Salud-Domain",
+        "projectPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Domain\\FBQ.Salud-Domain.csproj",
+        "packagesPath": "C:\\Users\\casto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Domain\\obj\\",
+>>>>>>> 805ed665859ad46087ab071e597531724ba5a624
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Onihori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\casto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -229,8 +336,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -239,6 +347,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -263,6 +375,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.8, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             }
           },
           "imports": [
@@ -276,15 +392,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud\\FBQ.Salud-Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -293,9 +424,23 @@
         "projectPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud\\FBQ.Salud-Presentation.csproj",
         "packagesPath": "C:\\Users\\Onihori\\.nuget\\packages\\",
         "outputPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud\\obj\\",
+=======
+    "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud\\FBQ.Salud-Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud\\FBQ.Salud-Presentation.csproj",
+        "projectName": "FBQ.Salud-Presentation",
+        "projectPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud\\FBQ.Salud-Presentation.csproj",
+        "packagesPath": "C:\\Users\\casto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud\\obj\\",
+>>>>>>> 805ed665859ad46087ab071e597531724ba5a624
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Onihori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\casto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -309,11 +454,19 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj": {
                 "projectPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj"
               },
               "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj": {
                 "projectPath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj"
+=======
+              "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj": {
+                "projectPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj"
+              },
+              "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj": {
+                "projectPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Application\\FBQ.Salud-Application.csproj"
+>>>>>>> 805ed665859ad46087ab071e597531724ba5a624
               }
             }
           }
@@ -326,8 +479,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -336,6 +490,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -360,6 +518,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.8, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -377,6 +539,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -385,7 +565,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -20,15 +20,23 @@ namespace FBQ.Salud_Application.Services
         private readonly IMapper _mapper;
         private readonly IPacienteRepository _pacienteRepository;
         private readonly IPacienteValidationExist _pacienteValidation;
+        private IPacienteRepository @object;
+
         public PacienteServices(IMapper mapper, IPacienteRepository pacienteRepository, IPacienteValidationExist pacienteValidation)
         {
-            _mapper = mapper;
-            _pacienteRepository = pacienteRepository;
-            _pacienteValidation = pacienteValidation;
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+            _pacienteRepository = pacienteRepository ?? throw new ArgumentNullException(nameof(pacienteRepository));
+            _pacienteValidation = pacienteValidation ?? throw new ArgumentNullException(nameof(pacienteValidation));
         }
 
         public Response Add(PacienteDto paciente)
         {
+            if (paciente == null)
+                throw new ArgumentNullException(nameof(paciente));
+
+            if (string.IsNullOrEmpty(paciente.DNI))
+                throw new ArgumentException("El DNI del paciente no puede ser nulo o vacío.");
+
             var userMapped = _mapper.Map<Paciente>(paciente);
 
             if (_pacienteValidation.ExistePaciente(userMapped))
@@ -38,37 +46,38 @@ namespace FBQ.Salud_Application.Services
                 return new Response
                 {
                     Success = true,
-                    Message = "Exito",
+                    Message = "Éxito",
                     Result = paciente
                 };
             }
             else
             {
                 var userExistente = _pacienteRepository.GetPacienteByDNI(userMapped.DNI);
-                if (userExistente.Estado == true)
+                if (userExistente != null && userExistente.Estado == false)
                 {
-                    userExistente.Estado = false;
+                    userExistente.Estado = true;
                     _pacienteRepository.Update(userExistente);
 
                     var userMap = _mapper.Map<PacienteDto>(userExistente);
                     return new Response
                     {
                         Success = true,
-                        Message = "Paciente con dni " + paciente.DNI + " activado",
+                        Message = $"Paciente con DNI {paciente.DNI} activado",
                         Result = userMap
                     };
                 }
                 else
+                {
                     return new Response
                     {
                         Success = false,
-                        Message = "Existe un paciente con dni " + paciente.DNI,
+                        Message = $"Existe un paciente con DNI {paciente.DNI}",
                         Result = ""
                     };
-
+                }
             }
-
         }
+
         public Response Delete(int pacienteId)
         {
             var pacient = _pacienteRepository.GetPacienteById(pacienteId);
@@ -141,6 +150,16 @@ namespace FBQ.Salud_Application.Services
         }
         public Response GetPacienteByDni(string dni)
         {
+            if (string.IsNullOrWhiteSpace(dni))
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = "El DNI no puede estar vacío.",
+                    Result = null
+                };
+            }
+
             var paciente = _pacienteRepository.GetPacienteByDNI(dni);
 
             if (paciente == null)
@@ -148,7 +167,7 @@ namespace FBQ.Salud_Application.Services
                 return new Response
                 {
                     Success = false,
-                    Message = "Paciente con dni " + dni + " inexistente",
+                    Message = $"Paciente con DNI {dni} inexistente",
                     Result = ""
                 };
             }
@@ -157,7 +176,7 @@ namespace FBQ.Salud_Application.Services
             return new Response
             {
                 Success = true,
-                Message = "Exito",
+                Message = "Éxito",
                 Result = pacienteMappeado
             };
         }
@@ -185,17 +204,25 @@ namespace FBQ.Salud_Application.Services
             };
         }
 
-        public Response Update(int id,PacienteDto paciente)
+        public Response Update(int id, PacienteDto paciente)
         {
-            //_pacienteRepository.Update(paciente);
             var pacienteUpdate = _pacienteRepository.GetPacienteById(id);
+
+            if (pacienteUpdate == null)
+            {
+                return new Response
+                {
+                    Success = false,
+                    Message = $"Paciente con id {id} inexistente",
+                    Result = ""
+                };
+            }
 
             var pacienteMapped = _mapper.Map<Paciente>(paciente);
 
-            if (pacienteUpdate != null && _pacienteValidation.ExistePaciente(pacienteMapped))
+            if (_pacienteValidation.ExistePaciente(pacienteMapped))
             {
                 _mapper.Map(paciente, pacienteUpdate);
-
                 _pacienteRepository.Update(pacienteUpdate);
 
                 return new Response
@@ -205,24 +232,13 @@ namespace FBQ.Salud_Application.Services
                     Result = paciente
                 };
             }
-            else
+
+            return new Response
             {
-                if (_pacienteValidation.ExistePaciente(pacienteMapped)==false)
-                {
-                    return new Response
-                    {
-                        Success = false,
-                        Message = "Paciente con dni existente",
-                        Result = ""
-                    };
-                }
-                return new Response
-                {
-                    Success = false,
-                    Message = "Paciente con id " + id + " inexistente",
-                    Result = ""
-                };
-            }
+                Success = false,
+                Message = "Paciente con DNI existente",
+                Result = ""
+            };
         }
     }
 }

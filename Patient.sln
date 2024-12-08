@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FBQ.Salud-Application", "FB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FBQ.Salud-Domain", "FBQ.Salud-Domain\FBQ.Salud-Domain.csproj", "{7CAF252E-124C-4146-80E8-FF695628EB0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBQ.Salud.Tests", "FBQ.Salud.Tests\FBQ.Salud.Tests.csproj", "{82457600-A8E6-4390-98D0-D5942CAB0274}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7CAF252E-124C-4146-80E8-FF695628EB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CAF252E-124C-4146-80E8-FF695628EB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CAF252E-124C-4146-80E8-FF695628EB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82457600-A8E6-4390-98D0-D5942CAB0274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82457600-A8E6-4390-98D0-D5942CAB0274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82457600-A8E6-4390-98D0-D5942CAB0274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82457600-A8E6-4390-98D0-D5942CAB0274}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
