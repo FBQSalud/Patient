@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FBQ.Salud_AccessData.Migrations
 {
     [DbContext(typeof(FbqSaludDbContext))]
-    [Migration("20221201023100_init")]
+    [Migration("20241207235905_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -160,6 +160,36 @@ namespace FBQ.Salud_AccessData.Migrations
                     b.HasKey("PacienteId");
 
                     b.ToTable("Pacientes");
+
+                    b.HasData(
+                        new
+                        {
+                            PacienteId = 1,
+                            Apellido = "esteves",
+                            DNI = "41395213",
+                            Direccion = "calle tremenda",
+                            DirecionNumero = "5333",
+                            Edad = 25,
+                            Estado = false,
+                            Foto = "foto.jpg",
+                            Nombre = "leonardo",
+                            Sexo = "Masculino",
+                            Telefono = "112561245"
+                        },
+                        new
+                        {
+                            PacienteId = 2,
+                            Apellido = "muñoz",
+                            DNI = "41395211",
+                            Direccion = "calle abismal",
+                            DirecionNumero = "5323",
+                            Edad = 25,
+                            Estado = false,
+                            Foto = "foto.jpg",
+                            Nombre = "brisa",
+                            Sexo = "Femenino",
+                            Telefono = "112561241"
+                        });
                 });
 
             modelBuilder.Entity("FBQ.Salud_Domain.Entities.Turno", b =>
@@ -195,6 +225,28 @@ namespace FBQ.Salud_AccessData.Migrations
                     b.HasIndex("PacienteId");
 
                     b.ToTable("Turnos");
+
+                    b.HasData(
+                        new
+                        {
+                            TurnoId = 1,
+                            DiagnosticoId = "AR.1",
+                            EstadoTurno = false,
+                            FechaTurno = new DateTime(2024, 12, 7, 20, 59, 4, 990, DateTimeKind.Local).AddTicks(2823),
+                            MedicoId = 1,
+                            Observacion = "gripe",
+                            PacienteId = 1
+                        },
+                        new
+                        {
+                            TurnoId = 2,
+                            DiagnosticoId = "AR.1",
+                            EstadoTurno = false,
+                            FechaTurno = new DateTime(2024, 12, 7, 20, 59, 4, 990, DateTimeKind.Local).AddTicks(2833),
+                            MedicoId = 2,
+                            Observacion = "gripe",
+                            PacienteId = 2
+                        });
                 });
 
             modelBuilder.Entity("FBQ.Salud_Domain.Entities.HistoriaClinica", b =>

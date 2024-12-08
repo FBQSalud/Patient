@@ -110,6 +110,25 @@ namespace FBQ.Salud_AccessData.Migrations
                     { "QE.2", "QUEBRADURA EXPUESTA GRADO 2" }
                 });
 
+            migrationBuilder.InsertData(
+                table: "Pacientes",
+                columns: new[] { "PacienteId", "Apellido", "DNI", "Direccion", "DirecionNumero", "Edad", "Estado", "Foto", "Nombre", "Sexo", "Telefono" },
+                values: new object[,]
+                {
+                    { 1, "esteves", "41395213", "calle tremenda", "5333", 25, false, "foto.jpg", "leonardo", "Masculino", "112561245" },
+                    { 2, "muñoz", "41395211", "calle abismal", "5323", 25, false, "foto.jpg", "brisa", "Femenino", "112561241" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Turnos",
+                columns: new[] { "TurnoId", "DiagnosticoId", "EstadoTurno", "FechaTurno", "MedicoId", "Observacion", "PacienteId" },
+                values: new object[] { 1, "AR.1", false, new DateTime(2024, 12, 7, 20, 59, 4, 990, DateTimeKind.Local).AddTicks(2823), 1, "gripe", 1 });
+
+            migrationBuilder.InsertData(
+                table: "Turnos",
+                columns: new[] { "TurnoId", "DiagnosticoId", "EstadoTurno", "FechaTurno", "MedicoId", "Observacion", "PacienteId" },
+                values: new object[] { 2, "AR.1", false, new DateTime(2024, 12, 7, 20, 59, 4, 990, DateTimeKind.Local).AddTicks(2833), 2, "gripe", 2 });
+
             migrationBuilder.CreateIndex(
                 name: "IX_HistoriasClinicas_PacienteId",
                 table: "HistoriasClinicas",

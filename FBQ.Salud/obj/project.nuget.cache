@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pbj8ILGeSPVK4gTpc/7IDLHvzYG0soQCZw5PgJxcVBnyA4I7tCfb8N5dpxz/uizmylEdyOVxmD+IQI89x29BdQ==",
+  "dgSpecHash": "pfk0lb9JMlAt7e0iqvE+p4nhxY2/S4+0axtenEiGK2cS3TXNZ9hN68K3M/E/m19IYJSAYbAOSp8QUn7OK/K42w==",
   "success": true,
-  "projectFilePath": "C:\\Based Repos\\FBQ\\Patient\\FBQ.Salud\\FBQ.Salud-Presentation.csproj",
+  "projectFilePath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud\\FBQ.Salud-Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Onihori\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Onihori\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

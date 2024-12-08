@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uWteELeDGK9KzZ1suzBMbEMRkEv3H6QmDNgpzv8+YqpyD0GtYxoiLGfvjaC4M9Z5OrwGDghZ5mEzlDZAeZYedg==",
+  "dgSpecHash": "+x2wqanNb1NHVqwFwgaS8SaaBdqxl6uTE9S/FgFwwLOSoNb69RfIebzNL9iy9dleGx56JkqAb3euEzLXGiCxAg==",
   "success": true,
-  "projectFilePath": "C:\\Based Repos\\FBQ\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj",
+  "projectFilePath": "E:\\COSAS IMPORTANTES\\PS\\segundo cuatri\\Microservicios FBQ\\Patient\\FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Onihori\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Onihori\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
