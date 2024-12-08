@@ -1,306 +1,3 @@
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\bin\Debug\net6.0\appsettings.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.exe
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.deps.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.runtimeconfig.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.AssemblyReference.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfoInputs.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfo.cs
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CoreCompileInputs.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\scopedcss\bundle\FBQ.Salud-Presentation.styles.css
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CopyComplete
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\refint\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.genruntimeconfig.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud\FBQ.Salud\obj\Debug\net6.0\ref\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.AssemblyReference.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfoInputs.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfo.cs
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CoreCompileInputs.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\refint\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.exe
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.deps.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.runtimeconfig.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Humanizer.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.pdb
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.pdb
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.pdb
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\scopedcss\bundle\FBQ.Salud-Presentation.styles.css
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CopyComplete
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.genruntimeconfig.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\FBQ.Salud - Patient\FBQ.Salud\obj\Debug\net6.0\ref\FBQ.Salud-Presentation.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.json
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.exe
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.deps.json
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.runtimeconfig.json
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Humanizer.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.pdb
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.pdb
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.pdb
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.AssemblyReference.cache
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfoInputs.cache
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfo.cs
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CoreCompileInputs.cache
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\scopedcss\bundle\FBQ.Salud-Presentation.styles.css
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CopyComplete
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\refint\FBQ.Salud-Presentation.dll
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.genruntimeconfig.cache
-C:\Users\LopezFranco\Desktop\FBQSalud\Patient\FBQ.Salud\obj\Debug\net6.0\ref\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.AssemblyReference.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfoInputs.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfo.cs
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CoreCompileInputs.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\refint\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.exe
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.deps.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.runtimeconfig.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Humanizer.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.dll
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.pdb
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.pdb
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.pdb
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\scopedcss\bundle\FBQ.Salud-Presentation.styles.css
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CopyComplete
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.genruntimeconfig.cache
-C:\Users\casto\Downloads\2do Cuatri 2022\Proyecto Software\TP-Grupal\Patient\FBQ.Salud\obj\Debug\net6.0\ref\FBQ.Salud-Presentation.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.json
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.exe
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.deps.json
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.runtimeconfig.json
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Humanizer.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.pdb
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.pdb
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.pdb
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.AssemblyReference.cache
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfoInputs.cache
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfo.cs
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CoreCompileInputs.cache
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\scopedcss\bundle\FBQ.Salud-Presentation.styles.css
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CopyComplete
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\refint\FBQ.Salud-Presentation.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.genruntimeconfig.cache
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\ref\FBQ.Salud-Presentation.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.Development.json
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.json
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.exe
@@ -311,6 +8,11 @@ E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.xml
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Castle.Core.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentAssertions.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Humanizer.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -327,6 +29,7 @@ E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.OpenApi.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Moq.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -343,12 +46,12 @@ E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.dll
@@ -362,197 +65,19 @@ E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CoreCompileInputs.cache
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cs
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cache
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.sourcelink.json
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.build.json
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.development.json
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.FBQ.Salud-Presentation.Microsoft.AspNetCore.StaticWebAssets.props
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.build.FBQ.Salud-Presentation.props
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FBQ.Salud-Presentation.props
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FBQ.Salud-Presentation.props
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.pack.json
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\scopedcss\bundle\FBQ.Salud-Presentation.styles.css
+E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salu.5DD2CEA7.Up2Date
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\refint\FBQ.Salud-Presentation.dll
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.xml
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.pdb
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.genruntimeconfig.cache
 E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\ref\FBQ.Salud-Presentation.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.xml
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.xml
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
-C:\Users\LopezFranco\Desktop\FBQ_Salud\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.dll
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.Development.json
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.json
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.exe
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.deps.json
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.runtimeconfig.json
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.xml
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Humanizer.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.pdb
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.pdb
-C:\Based Repos\FBQ\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.pdb
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.AssemblyReference.cache
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.GeneratedMSBuildEditorConfig.editorconfig
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfoInputs.cache
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfo.cs
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CoreCompileInputs.cache
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cs
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cache
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.sourcelink.json
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.build.json
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.development.json
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.FBQ.Salud-Presentation.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.build.FBQ.Salud-Presentation.props
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FBQ.Salud-Presentation.props
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FBQ.Salud-Presentation.props
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\scopedcss\bundle\FBQ.Salud-Presentation.styles.css
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salu.5DD2CEA7.Up2Date
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\refint\FBQ.Salud-Presentation.dll
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.xml
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.genruntimeconfig.cache
-C:\Based Repos\FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\ref\FBQ.Salud-Presentation.dll
-<<<<<<< HEAD
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.sourcelink.json
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.FBQ.Salud-Presentation.Microsoft.AspNetCore.StaticWebAssets.props
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.build.FBQ.Salud-Presentation.props
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FBQ.Salud-Presentation.props
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FBQ.Salud-Presentation.props
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.pack.json
-E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salu.5DD2CEA7.Up2Date
-=======
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\appsettings.json
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.staticwebassets.endpoints.json
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.exe
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.deps.json
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.runtimeconfig.json
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Presentation.xml
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Humanizer.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-AccessData.pdb
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Application.pdb
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FBQ.Salud-Domain.pdb
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.AssemblyReference.cache
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfoInputs.cache
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.AssemblyInfo.cs
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.csproj.CoreCompileInputs.cache
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.sourcelink.json
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\scopedcss\bundle\FBQ.Salud-Presentation.styles.css
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.build.endpoints.json
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.FBQ.Salud-Presentation.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.FBQ.Salud-Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.build.FBQ.Salud-Presentation.props
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FBQ.Salud-Presentation.props
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FBQ.Salud-Presentation.props
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salu.5DD2CEA7.Up2Date
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\refint\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.xml
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.pdb
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\FBQ.Salud-Presentation.genruntimeconfig.cache
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\obj\Debug\net6.0\ref\FBQ.Salud-Presentation.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Castle.Core.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\FluentAssertions.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\Moq.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
->>>>>>> 805ed665859ad46087ab071e597531724ba5a624

@@ -8,12 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FBQ.Salud_Domain
-<<<<<<< HEAD
 build_property.ProjectDir = E:\COSAS IMPORTANTES\PS\segundo cuatri\Microservicios FBQ\Patient\FBQ.Salud-Domain\
-=======
-build_property.ProjectDir = C:\Users\casto\Downloads\Finales 2024\FBQ-Salud\Microservicios\Patient\FBQ.Salud-Domain\
->>>>>>> 805ed665859ad46087ab071e597531724ba5a624
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.EffectiveAnalysisLevelStyle = 6.0
-build_property.EnableCodeStyleSeverity = 
