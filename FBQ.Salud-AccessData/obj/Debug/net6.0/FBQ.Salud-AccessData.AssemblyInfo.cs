@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FBQ.Salud-AccessData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+805ed665859ad46087ab071e597531724ba5a624")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+721258acb8e2bd441c5c74d0ae0d43e8c99098e5")]
+>>>>>>> 432bf3644401d1edc371939671a89203879f4460
 [assembly: System.Reflection.AssemblyProductAttribute("FBQ.Salud-AccessData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FBQ.Salud-AccessData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

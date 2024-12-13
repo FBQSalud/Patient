@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC686831-DEC2-4CF5-B030-C636571E6D73}|FBQ.Salud\\FBQ.Salud-Presentation.csproj|c:\\users\\casto\\downloads\\finales 2024\\fbq-salud\\microservicios\\patient\\fbq.salud\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC686831-DEC2-4CF5-B030-C636571E6D73}|FBQ.Salud\\FBQ.Salud-Presentation.csproj|solutionrelative:fbq.salud\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DEDBED5-5916-4699-B0A9-F806921BD4C1}|FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj|c:\\users\\casto\\downloads\\finales 2024\\fbq-salud\\microservicios\\patient\\fbq.salud-accessdata\\commands\\fbqsaluddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DEDBED5-5916-4699-B0A9-F806921BD4C1}|FBQ.Salud-AccessData\\FBQ.Salud-AccessData.csproj|solutionrelative:fbq.salud-accessdata\\commands\\fbqsaluddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82457600-A8E6-4390-98D0-D5942CAB0274}|FBQ.Salud.Tests\\FBQ.Salud.Tests.csproj|c:\\users\\casto\\downloads\\finales 2024\\fbq-salud\\microservicios\\patient\\fbq.salud.tests\\application\\services\\patientservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82457600-A8E6-4390-98D0-D5942CAB0274}|FBQ.Salud.Tests\\FBQ.Salud.Tests.csproj|solutionrelative:fbq.salud.tests\\application\\services\\patientservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D80D8C-6254-4632-937D-3DDD22698E62}|FBQ.Salud-Application\\FBQ.Salud-Application.csproj|c:\\users\\casto\\downloads\\finales 2024\\fbq-salud\\microservicios\\patient\\fbq.salud-application\\services\\pacienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D80D8C-6254-4632-937D-3DDD22698E62}|FBQ.Salud-Application\\FBQ.Salud-Application.csproj|solutionrelative:fbq.salud-application\\services\\pacienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FbqSaludDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-AccessData\\Commands\\FbqSaludDbContext.cs",
+              "RelativeDocumentMoniker": "FBQ.Salud-AccessData\\Commands\\FbqSaludDbContext.cs",
+              "ToolTip": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-AccessData\\Commands\\FbqSaludDbContext.cs",
+              "RelativeToolTip": "FBQ.Salud-AccessData\\Commands\\FbqSaludDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:40:04.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PacienteController.cs",
+              "DocumentMoniker": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud\\Controllers\\PacienteController.cs",
+              "RelativeDocumentMoniker": "FBQ.Salud\\Controllers\\PacienteController.cs",
+              "ToolTip": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud\\Controllers\\PacienteController.cs",
+              "RelativeToolTip": "FBQ.Salud\\Controllers\\PacienteController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAewBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:37:39.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacienteServices.cs",
+              "DocumentMoniker": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Application\\Services\\PacienteServices.cs",
+              "RelativeDocumentMoniker": "FBQ.Salud-Application\\Services\\PacienteServices.cs",
+              "ToolTip": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud-Application\\Services\\PacienteServices.cs",
+              "RelativeToolTip": "FBQ.Salud-Application\\Services\\PacienteServices.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAqwPEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T22:09:17.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud.Tests\\Application\\Services\\PatientServiceTests.cs",
+              "RelativeDocumentMoniker": "FBQ.Salud.Tests\\Application\\Services\\PatientServiceTests.cs",
+              "ToolTip": "C:\\Users\\casto\\Downloads\\Finales 2024\\FBQ-Salud\\Microservicios\\Patient\\FBQ.Salud.Tests\\Application\\Services\\PatientServiceTests.cs",
+              "RelativeToolTip": "FBQ.Salud.Tests\\Application\\Services\\PatientServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T21:03:53.263Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
