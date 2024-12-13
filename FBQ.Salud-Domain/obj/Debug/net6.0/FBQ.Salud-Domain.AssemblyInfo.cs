@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FBQ.Salud-Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef27b95328198f14af331a98d5802d1a45c1a363")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+805ed665859ad46087ab071e597531724ba5a624")]
 [assembly: System.Reflection.AssemblyProductAttribute("FBQ.Salud-Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FBQ.Salud-Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
