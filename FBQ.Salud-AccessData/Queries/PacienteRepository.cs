@@ -36,7 +36,7 @@ namespace FBQ.Salud_AccessData.Queries
         }
         public List<Paciente> GetListPacientesByNombre()
         {
-            var pacientes = _context.Pacientes.Where(x =>x.Estado==false).ToList();
+            var pacientes = _context.Pacientes.Where(x =>x.Estado != false).ToList();
 
             return pacientes;
         }

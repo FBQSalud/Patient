@@ -123,11 +123,11 @@ namespace FBQ.Salud_Application.Services
         public List<PacienteRequest> GetAll()
         {
         
-                var productos = _pacienteRepository.GetListPacientesByNombre();
+                var pacientes = _pacienteRepository.GetListPacientesByNombre();
 
                 List<PacienteRequest> pacientesMapeados = new List<PacienteRequest>();
 
-                foreach (var p in productos)
+                foreach (var p in pacientes)
                 {
                     var pacientemaper = new PacienteRequest
                     {

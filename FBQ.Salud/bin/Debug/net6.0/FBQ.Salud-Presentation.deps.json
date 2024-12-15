@@ -11,6 +11,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "FBQ.Salud-AccessData": "1.0.0",
           "FBQ.Salud-Application": "1.0.0",
+          "FBQ.Salud-Domain": "1.0.0",
           "FluentAssertions": "7.0.0",
           "FluentValidation.AspNetCore": "11.2.2",
           "Microsoft.EntityFrameworkCore": "6.0.8",

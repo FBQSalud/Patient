@@ -78,7 +78,7 @@ namespace FBQ.Salud_Application.Services
                     Result = ""
                 };
             }
-            if (paciente == null || paciente.Estado==true)
+            if (paciente == null || paciente.Estado == false)
             {
                 return new Response
                 {

@@ -69,33 +69,40 @@ namespace FBQ.Salud_Presentation.Controllers
                 return BadRequest(e.Message);
             }
         }
+
         /// <summary>
         ///  Endpoint dedicado a la creación de una atencion.
         /// </summary>
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult CreateTurno([FromBody] TurnoDTOForCreated turno)
         {
             try
             {
-                var TurnoNuevo = _service.CreateTurno(turno);
+                // Llama al servicio para crear el turno
+                var turnoNuevo = _service.CreateTurno(turno);
 
-                if (TurnoNuevo.Success)
+                if (turnoNuevo.Success)
                 {
-                    return new JsonResult(TurnoNuevo) { StatusCode = 200 };
+                    // Retorna el objeto turnoNuevo con un código 201 (Created)
+                    return CreatedAtAction(nameof(CreateTurno), null, turnoNuevo); // Sin incluir ID
                 }
                 else
                 {
-                    return new JsonResult(TurnoNuevo) { StatusCode = 404 };
+                    // Retorna un código 404 si algo falla en la lógica del servicio
+                    return NotFound(new { message = turnoNuevo.Message });
                 }
             }
             catch (Exception e)
             {
-                return BadRequest(e.Message);
+                // Manejar cualquier excepción inesperada
+                return BadRequest(new { message = e.Message });
             }
         }
+
+
         /// <summary>
         ///  Endpoint dedicado a la actualización de un turno.
         /// </summary>
